@@ -6,3 +6,25 @@ spec:
   profile:
     displayName: eero # Can be any arbitrary value, will default to metadata.name value if not inserted.
   memberOf: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: suulperi # This must match with your github account name
+spec:
+  profile:
+    displayName: tommi # Can be any arbitrary value, will default to metadata.name value if not inserted.
+  memberOf: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ikke-t # This must match with your github account name
+spec:
+  profile:
+    displayName: ilkka # Can be any arbitrary value, will default to metadata.name value if not inserted.
+  memberOf: []
